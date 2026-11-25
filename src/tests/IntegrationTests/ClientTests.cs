@@ -1,7 +1,7 @@
 using System.Net;
 using System.Text;
 
-namespace Loud.Technology.Codex.Cnj.Sdk.IntegrationTests;
+namespace Softplan.Soft.Suite.Codex.Cnj.Sdk.IntegrationTests;
 
 [TestClass]
 public sealed class ClientTests

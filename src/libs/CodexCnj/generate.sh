@@ -22,7 +22,7 @@ python3 apply-openapi-overrides.py openapi.json
 rm -rf Generated
 
 "${AUTOSDK_COMMAND}" generate openapi.json \
-  --namespace Loud.Technology.Codex.Cnj.Sdk \
+  --namespace Softplan.Soft.Suite.Codex.Cnj.Sdk \
   --clientClassName CodexCnjClient \
   --targetFramework net10.0 \
   --output Generated \
