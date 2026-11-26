@@ -3,7 +3,7 @@
   <h1>Codex CNJ .NET SDK</h1>
   <p><strong>Strongly typed .NET client for the CNJ Codex Process API.</strong></p>
 
-  [![CI](https://github.com/loud-technology/loud-technology-codex-cnj-sdk/actions/workflows/dotnet.yml/badge.svg?branch=main)](https://github.com/loud-technology/loud-technology-codex-cnj-sdk/actions/workflows/dotnet.yml)
+  [![CI](https://github.com/softplan/softplan-soft-suite-codex-cnj-sdk-dotnet/actions/workflows/dotnet.yml/badge.svg?branch=main)](https://github.com/softplan/softplan-soft-suite-codex-cnj-sdk-dotnet/actions/workflows/dotnet.yml)
   [![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
   [![.NET 10](https://img.shields.io/badge/.NET-10.0-512BD4?logo=dotnet)](https://dotnet.microsoft.com/)
 </div>
@@ -18,7 +18,7 @@
 - Deterministic generation with AutoSDK `0.30.2-dev.152` and validated OpenAPI overrides.
 
 > [!NOTE]
-> This community SDK is maintained by loud-technology and is not an official CNJ SDK.
+> This community SDK is maintained by Softplan and is not an official CNJ SDK.
 
 ## Requirements
 
@@ -40,7 +40,7 @@ export CODEX_CNJ_ACCESS_TOKEN="Bearer your-access-token"
 ```
 
 ```csharp
-using Loud.Technology.Codex.Cnj.Sdk;
+using Softplan.Soft.Suite.Codex.Cnj.Sdk;
 
 using var client = CodexCnjClient.CreateFromEnvironment();
 
@@ -102,9 +102,9 @@ The script copies `codex-cnj-swagger.json`, validates its host, base path, and a
 ## Build and test
 
 ```bash
-dotnet restore Loud.Technology.Codex.Cnj.Sdk.slnx
-dotnet build Loud.Technology.Codex.Cnj.Sdk.slnx --configuration Release --no-restore
-dotnet test Loud.Technology.Codex.Cnj.Sdk.slnx --configuration Release --no-build
+dotnet restore Softplan.Soft.Suite.Codex.Cnj.Sdk.slnx
+dotnet build Softplan.Soft.Suite.Codex.Cnj.Sdk.slnx --configuration Release --no-restore
+dotnet test Softplan.Soft.Suite.Codex.Cnj.Sdk.slnx --configuration Release --no-build
 ```
 
 The tests are network-free and verify the default URL, `Authorization` header, route/query serialization, typed responses, and model JSON serialization.

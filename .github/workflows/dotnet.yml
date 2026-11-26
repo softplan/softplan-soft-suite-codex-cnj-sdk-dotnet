@@ -20,8 +20,8 @@ env:
   DOTNET_NOLOGO: true
   DOTNET_CLI_TELEMETRY_OPTOUT: true
   CONFIGURATION: Release
-  SOLUTION: Loud.Technology.Codex.Cnj.Sdk.slnx
-  PROJECT: src/libs/CodexCnj/Loud.Technology.Codex.Cnj.Sdk.csproj
+  SOLUTION: Softplan.Soft.Suite.Codex.Cnj.Sdk.slnx
+  PROJECT: src/libs/CodexCnj/Softplan.Soft.Suite.Codex.Cnj.Sdk.csproj
 
 jobs:
   build-test-pack:
