@@ -28,7 +28,7 @@
 ## Install
 
 ```bash
-dotnet add package Codex.Cnj
+dotnet add package Softplan.SoftSuite.Codex.Cnj
 ```
 
 ## Quick start
